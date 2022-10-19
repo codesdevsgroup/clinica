@@ -83,6 +83,17 @@ h1,h2,h3,h4,h5{
     overflow: hidden;
 }
 
+/* menu */
+#menu {
+    background-color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+#main_menu .navbar-brand img{
+    background-color:#fff ;
+    border-radius: 50%;
+    width: 80px;
+}
 
 /* procedures */
 #procedures .card .img_wrapper{
