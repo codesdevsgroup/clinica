@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5{
 /* menu */
 #menu {
     margin-top: 10px;
-    background-color: var(--primary-color);
+    background-color: rgba(251, 181, 199, 0.6) ;
     margin-bottom: 30px;
     
 }
@@ -108,7 +108,7 @@ h1,h2,h3,h4,h5{
 }
 
 #main_menu .navbar-nav li a:hover{
-    color: var(--txt-color-2);
+    color: rgba(237, 70, 115, 0.5);
 }
 
 /* procedures */
