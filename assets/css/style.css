@@ -94,7 +94,12 @@ h1,h2,h3,h4,h5{
     width: 80px;
 }
 
+#main_menu .navbar-nav li{
+    padding: 0 5px;
+}
+
 #main_menu .navbar-nav li a {
+    padding: 10px 10px;
     color: var(--txt-color-1);
     border-bottom: 2px solid;
     border-top: 2px solid;
