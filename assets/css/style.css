@@ -3,10 +3,6 @@
 @import url('https://fonts.googleapis.com/css2? family= Cormorant+Garamond:wght@300 & family= Great+Vibes & family= Pinyon+Script & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 @font-face {
-    font-family: EleganciaRomantica;
-    src: url(../fonts/EleganciaRomantica.ttf);
-}
-@font-face {
     font-family: BelindaCarolyne ;
     src: url(../fonts/BelindaCarolyne.ttf);
 }
@@ -41,9 +37,9 @@ h1{
     font-size: 52px;
 }
 
-h2,h3,h4,h5{
+/* h2,h3,h4,h5{
    
-}
+} */
 h5{
     font-size: 25px;
 }
