@@ -75,6 +75,7 @@ h5{
 }
 
 #home button {
+    color: var(--bg-color);
     font-family:'Cormorant Garamond', serif;
     width: 200px;
     height: 60px;
@@ -128,13 +129,13 @@ h5{
 
 /* procedures */
 #procedures h2{
-    color: var(--txt-color-1);
-    text-shadow: 3px 6px 1px black;
+    color: var(--bg-color);
+    text-shadow: 3px 6px 10px rgb(241, 52, 213);
 }
 
 #procedures .card{
     margin: 20px;
-    box-shadow: 3px 3px 25px rgba(253, 243, 244), -3px -3px 25px rgba(253, 243, 244) ;
+    box-shadow: 3px 3px 15px var(--bg-hover), -3px -3px 15px var(--bg-hover) ;
 }
 
 #procedures .card .img_wrapper{
