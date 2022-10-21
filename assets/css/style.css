@@ -5,6 +5,10 @@
     font-family: BelindaCarolyne ;
     src: url(../fonts/BelindaCarolyne.ttf);
 }
+@font-face {
+    font-family: StyleScript;
+    src: url(../fonts/StyleScript-Regular.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +41,7 @@ h1{
 }
 
 h2,h3,h4,h5{
-  font-family: 'Elsie Swash Caps', cursiva;
+    font-family: 'StyleScript', cursiva;
 }
 h5{
     font-size: 28px;
