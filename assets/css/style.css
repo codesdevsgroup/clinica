@@ -1,5 +1,5 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2? family= Elsie+Swash+Caps & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap%271');
 @import url('https://fonts.googleapis.com/css2? family= Inter & display=swap');
 @font-face {
     font-family: BelindaCarolyne ;
@@ -161,4 +161,19 @@ p {
 #procedures .btn:hover{
     font-weight: bolder;
     background-color: var(--bg-hover);
+}
+
+/* professionals */
+#professionals{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#professionals .pf_text{
+    font-weight: 900;
+}
+
+#professionals .pf_bio{
+    font-weight: 400;
+    font-size: 16px;
 }
