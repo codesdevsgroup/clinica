@@ -165,8 +165,15 @@ p {
 
 /* professionals */
 #professionals{
+    padding: 100px 0;
     margin-top: 100px;
     margin-bottom: 100px;
+    background-color: rgba(253, 168, 210, 0.3);
+}
+
+#professionals h2{
+    color: var(--bg-color);
+    text-shadow: 3px 6px 10px rgb(241, 52, 213);
 }
 
 #professionals .pf_text{
@@ -177,3 +184,9 @@ p {
     font-weight: 400;
     font-size: 16px;
 }
+
+/* .prof_box{
+    background-color: rgba(251, 181, 199,0.2);
+    border-radius: 30%;
+    box-shadow: 2px 2px 50px rgba(148, 94, 142,0.3), -3px -3px 40px rgba(253, 168, 210, 0.3);
+} */
