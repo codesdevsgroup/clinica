@@ -129,6 +129,14 @@ p {
     color:var(--bg-color);
 }
 
+button .navbar-toggler-icon {             
+    background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg%27%3E%3Cpath stroke='rgba(148, 94, 142)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
 /* procedures */
 #procedures h2{
     color: var(--bg-color);
@@ -170,6 +178,12 @@ p {
 /* About */
 #about{
     background-color: rgba(253, 168, 210, 0.3);
+    background: linear-gradient(270deg, rgba(253, 168, 210, 0.3) 15%, rgba(213, 211, 203,0.3));
+}
+
+#about h2{
+    color: var(--bg-color);
+    text-shadow: 3px 6px 10px rgb(241, 52, 213);
 }
 
 #about_cards .ab_card{
@@ -197,13 +211,26 @@ p {
     font-size: 16px;
 }
 
-/* .prof_box{
-    background-color: rgba(251, 181, 199,0.2);
-    border-radius: 30%;
-    box-shadow: 2px 2px 50px rgba(148, 94, 142,0.3), -3px -3px 40px rgba(253, 168, 210, 0.3);
-} */
-
 /* Contact */
 #contact{
     background-color: rgba(253, 168, 210, 0.3);
+    background: linear-gradient(280deg,rgba(213, 211, 203,0.3) , rgba(253, 168, 210, 0.3 ));
+    padding-top: 30px;
+    
 }
+
+#contact h2{
+    color: var(--bg-color);
+    text-shadow: 3px 6px 10px rgb(241, 52, 213);
+}
+
+#contact .contact_content {
+    font-size: larger;
+    color: var(--bg-color);
+}
+
+#contact a{
+    text-decoration: none;
+    color: var(--bg-color);
+}
+
