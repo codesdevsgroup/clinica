@@ -167,12 +167,16 @@ p {
     background-color: var(--bg-hover);
 }
 
+/* About */
+#about{
+    background-color: rgba(253, 168, 210, 0.3);
+}
+
 /* professionals */
 #professionals{
     padding: 100px 0;
     margin-top: 100px;
     margin-bottom: 100px;
-    background-color: rgba(253, 168, 210, 0.3);
 }
 
 #professionals h2{
@@ -194,3 +198,4 @@ p {
     border-radius: 30%;
     box-shadow: 2px 2px 50px rgba(148, 94, 142,0.3), -3px -3px 40px rgba(253, 168, 210, 0.3);
 } */
+
