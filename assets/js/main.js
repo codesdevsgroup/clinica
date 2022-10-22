@@ -1,3 +1,4 @@
+/* Evento de fixar elemento no top */
 var offset = $('#menu').offset().top;
 var $meuMenu = $('#menu'); // guardar o elemento na memoria para melhorar performance
 $(document).on('scroll', function () {
