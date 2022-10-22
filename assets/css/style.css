@@ -172,6 +172,10 @@ p {
     background-color: rgba(253, 168, 210, 0.3);
 }
 
+#about_cards .ab_card{
+    border: 3px dotted;
+}
+
 /* professionals */
 #professionals{
     padding: 100px 0;
@@ -199,3 +203,7 @@ p {
     box-shadow: 2px 2px 50px rgba(148, 94, 142,0.3), -3px -3px 40px rgba(253, 168, 210, 0.3);
 } */
 
+/* Contact */
+#contact{
+    background-color: rgba(253, 168, 210, 0.3);
+}
