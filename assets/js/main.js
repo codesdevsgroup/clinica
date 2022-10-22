@@ -8,3 +8,23 @@ $(document).on('scroll', function () {
         $meuMenu.removeClass('fixed-top');
     }
 });
+
+//Java script puro
+/* window.addEventListener('scroll', onScroll)
+
+onScroll()
+function onScroll() {
+    ativarFixed(home)
+}
+
+function ativarFixed(section) {
+    const sectionheight = section.offsetHeight
+    
+    if (window.scrollY >= sectionheight) {
+        document.querySelector("#menu").classList.add("fixed-top")
+    } else {
+        document.querySelector("#menu").classList.remove("fixed-top")
+    }
+} */
+
+

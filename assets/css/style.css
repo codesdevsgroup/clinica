@@ -106,6 +106,10 @@ p {
     margin-bottom: 30px; 
 }
 
+#main_menu {
+    height: 106px;
+}
+
 #main_menu .navbar-brand img{
     background-color:#fff ;
     border-radius: 50%;
