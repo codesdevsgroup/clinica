@@ -99,6 +99,10 @@ p {
 #main_menu {
     height: 106px;
 }
+
+nav{
+    z-index: 2;
+}
 #main_menu .navbar-brand img{
     background-color:#fff ;
     border-radius: 50%;
@@ -133,6 +137,7 @@ button .navbar-toggler-icon {
     border-radius: 20px;
     min-height: 530px;
     margin: 20px;
+    
 }
 #procedures .card .img_wrapper{
     height: 150px;
