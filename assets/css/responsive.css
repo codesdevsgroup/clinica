@@ -12,8 +12,10 @@
         height: 150px;
         align-items: center;
     }
-
-
-
+}
+@media(max-width: 356px){
+    h1{
+        font-size: 48px;
+    }
 }
 
