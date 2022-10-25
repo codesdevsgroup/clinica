@@ -14,7 +14,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
     --bg-color:rgba(148, 94, 142);
     --txt-color-1:rgba(253, 243, 244);
@@ -23,12 +22,9 @@
     --secondary-color:rgba(213, 211, 203,0.3);
     --bg-hover:  rgba(253, 168, 210, 0.6);
 }
-
-
 html {
     scroll-behavior: smooth;
 }
-
 html,
 body {
     width: 100%;
@@ -39,22 +35,18 @@ h1{
     font-family: 'BelindaCarolyne';
     font-size: 52px;
 }
-
 h2{
     font-size: 50px;
 }
-
 h2,h3,h4,h5{
     font-family: 'StyleScript', cursiva;
 }
 h5{
     font-size: 28px;
 }
-
 p {
     font-family: 'Inter' sans-serif;
 }
-
 /* HOME */
 #home{
     background-image:url(../img/background_home.webp);
@@ -62,11 +54,9 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 #home, #home .container, .row{
     height: 100%;
 }
-
 #home #logo {
     margin-top: 15px;
     padding-bottom: 15px;
@@ -74,13 +64,10 @@ p {
     border-radius:50%;
     background-color: #fff;
 }
-
-
 #home p {
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
 }
-
 #home button {
     color: var(--bg-color);
     font-family:'Cormorant Garamond', serif;
@@ -91,43 +78,32 @@ p {
     border: 4px solid rgba(232, 143, 222, 0.5);
     max-width: 100%;    
 }
-
 #home button:hover{
-    background-color: var(--bg-hover)
+    background-color: var(--bg-hover);
+    font-size: 20px;
 }
-
 #home button a{
 	transition: all 0.3s;
 }
-
-#home button:hover{
-    font-size: 20px;  
+#home button:focus{
+    box-shadow: none;
 }
-
 /* menu */
 #menu {
     background-color: rgb(245, 219, 242);
     margin-bottom: 30px; 
 }
-
-nav {
-    z-index: 1;
-}
-
 #main_menu {
     height: 106px;
 }
-
 #main_menu .navbar-brand img{
     background-color:#fff ;
     border-radius: 50%;
     width: 80px;
 }
-
 #main_menu .navbar-nav li{
     padding: 0 5px;
 }
-
 #main_menu .navbar-nav li a {
     padding: 10px 10px;
     color: rgba(237, 70, 115, 0.8);
@@ -136,48 +112,39 @@ nav {
     margin: 5px;
     border-radius:10px; 
 }
-
 #main_menu .navbar-nav li a:hover{
     color:var(--bg-color);
 }
-
 button .navbar-toggler-icon {             
     background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg%27%3E%3Cpath stroke='rgba(148, 94, 142)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-
 .navbar-toggler:focus{
     box-shadow: none;
 }
-
 /* procedures */
 #procedures h2{
     margin-top: 30px;
     color: var(--bg-color);
 }
-
 #procedures .card{
     border-radius: 20px;
     min-height: 530px;
     margin: 20px;
     margin-left: 5px;
 }
-
 #procedures .card .img_wrapper{
     height: 150px;
     width: 150px;
 }
-
 #procedures .card .img_wrapper img{
     margin-top: 3px;
     max-width: 100%;
     height: 100%;
     width: auto;
 }
-
 #procedures .card .card-text{
     min-height: 100px;
 }
-
 #procedures .btn {
     width: 150px;
     border-radius: 50px;
@@ -185,65 +152,55 @@ button .navbar-toggler-icon {
     border: 1.5px solid rgba(232, 143, 222, 0.6) ;
     color: var(--bg-color);
 }
-
 #procedures .btn:hover{
     background-color:rgb(245, 219, 242);
     border: 4px solid rgba(232, 143, 222, 0.6);
     font-weight: bolder;
     background-color: var(--bg-hover);
 }
-
+#procedures .btn:focus{
+    box-shadow: none;
+}
 /* About */
 #about{
     background-color: rgba(253, 168, 210, 0.3);
     background: linear-gradient(270deg, rgba(253, 168, 210, 0.3) 15%, rgba(213, 211, 203,0.3));
 }
-
 #about h2{
     color: var(--bg-color);
 }
-
 #about_cards .ab_card{
     border: 3px dotted;
 }
-
 /* professionals */
 #professionals{
     padding: 100px 0;
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
 #professionals h2{
     color: var(--bg-color);
 }
-
 #professionals .pf_text{
     font-weight: 900;
 }
-
 #professionals .pf_bio{
     font-weight: 400;
     font-size: 16px;
 }
-
 /* Contact */
 #contact{
     background-color: rgba(253, 168, 210, 0.3);
     background: linear-gradient(280deg,rgba(213, 211, 203,0.3) , rgba(253, 168, 210, 0.3 ));
-    padding-top: 30px;
-    
+    padding-top: 30px;   
 }
-
 #contact h2{
     color: var(--bg-color);
 }
-
 #contact .contact_content {
     font-size: larger;
     color: var(--bg-color);
 }
-
 #contact a{
     text-decoration: none;
     color: var(--bg-color);
