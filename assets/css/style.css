@@ -84,6 +84,9 @@ p {
 }
 #home button a{
 	transition: all 0.3s;
+    text-decoration: none;
+    font-family:'Cormorant Garamond', serif;
+    color: var(--bg-color);
 }
 #home button:focus{
     box-shadow: none;
@@ -205,9 +208,17 @@ button .navbar-toggler-icon {
     text-decoration: none;
     color: var(--bg-color);
 }
-/* footer */
 .contact_content img{
     width: 25px;
     height:25px;
 }
-
+/* footer */
+#footer{
+    background-color: var(--secondary-color);
+    color: rgba(41, 14, 99, 0.977);
+    margin-bottom: 0;
+}
+#footer p{
+    margin-bottom: 0;
+    padding: 10px;
+}
