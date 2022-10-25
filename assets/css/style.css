@@ -110,6 +110,10 @@ p {
     margin-bottom: 30px; 
 }
 
+nav {
+    z-index: 1;
+}
+
 #main_menu {
     height: 106px;
 }

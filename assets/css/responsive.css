@@ -2,4 +2,18 @@
     .inverter{
         flex-direction: column-reverse;
     }
+    #logo{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+    #logo img {
+        width: 150px;
+        height: 150px;
+        align-items: center;
+    }
+
+
+
 }
+
