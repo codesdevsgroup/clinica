@@ -205,4 +205,9 @@ button .navbar-toggler-icon {
     text-decoration: none;
     color: var(--bg-color);
 }
+/* footer */
+.contact_content img{
+    width: 25px;
+    height:25px;
+}
 
