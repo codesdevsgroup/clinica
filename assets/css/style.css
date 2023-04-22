@@ -1,0 +1,34 @@
+
+body{
+  background-color: #F5F5F5;
+}
+
+#home{
+  background-color: #585E4C;
+}
+
+#about{
+  background-color: #FFF8F4;
+}
+
+#facial_treatments{
+  background-color: #FCF3EE;
+}
+
+#body_treatments{
+  background-color: #585E4C;
+}
+
+#team{
+  background-color: #F5F5F5;
+}
+
+#contact{
+  background: url(../img/background_contact.png) no-repeat;
+  background-size: cover;
+}
+
+footer{
+  background-color: #35392C;
+}
+
