@@ -5,22 +5,34 @@ body{
 
 #home{
   background-color: #585E4C;
+  background-image: url(../img/palmeiras.png);
+  background-size: cover;
 }
 
 #about{
   background-color: #FFF8F4;
+  background-image: url(../img/palmeira_about.png);
+  background-size: cover;
 }
 
 #facial_treatments{
   background-color: #FCF3EE;
+  background-image: url(../img/circulos_face_treatments.png);
+  background-size: cover;
 }
 
 #body_treatments{
   background-color: #585E4C;
+  background-image: url(../img/circulo_body_treatments.png);
+  background-repeat: no-repeat;
+  
+  
 }
 
 #team{
   background-color: #F5F5F5;
+  background-image: url(../img/palmeira_team.png);
+  background-size:contain ;
 }
 
 #contact{
